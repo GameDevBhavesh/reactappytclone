@@ -1,0 +1,50 @@
+.contentcard{
+    display: flex;
+    flex-flow: column;
+    width: 220px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 5px 30px -10px;
+    margin: 3px;
+    margin-top: 30px;
+    overflow: hidden;
+    font-size:small;
+    
+}
+.thumbnail{
+    width: 100%;
+    
+    
+    background-color: aqua;
+    overflow: hidden;
+   
+
+}
+.thumbnail-image{
+    
+   
+ 
+}
+.content-title{
+    margin: 5px;
+    font-family:sans-serif;
+    margin-bottom: 0px;
+    color: rgb(66, 66, 66);
+    font-size: 15px;
+    
+}
+.content-owner{
+    margin: 5px;
+    text-decoration-style:initial;
+    
+    margin-bottom: 5px;
+
+
+}
+.statics{
+    margin: 5px;
+    
+    margin-bottom: 5px;
+    text-justify: inter-cluster;
+
+}

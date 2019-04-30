@@ -1,0 +1,20 @@
+.contentrow{
+    display:flex;
+    flex-flow: row;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    height: calc(150px+20px);
+    background-color: rgb(252, 249, 245);
+    
+
+}
+.filtered{
+    position:relative;
+    margin: 0%;
+    padding: 0%;
+    height: 10px;
+    margin-left:0px;
+    font-size: 15px;
+    color: rgb(42, 42, 42);
+
+}

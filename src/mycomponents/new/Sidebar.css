@@ -1,0 +1,16 @@
+.leftdiv{
+    width: 18%;
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    flex-flow: column;
+ 
+   
+    background-color: rgb(247, 247, 247);
+    text-align: center
+  
+  
+  }
+  .leftdiv:hover{
+    overflow-y: scroll;
+  }

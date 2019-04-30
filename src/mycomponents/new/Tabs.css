@@ -1,0 +1,17 @@
+
+.tabs{
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  
+
+}
+a{
+  text-decoration: none;
+}
+.tabs:hover{
+  background-color: rgb(214, 214, 214);
+}
+

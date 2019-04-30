@@ -1,0 +1,16 @@
+
+.content{
+    width: 850px;
+   height: 450px;
+   margin-left: 10px;
+  
+ background-color: rgb(247, 247, 247);
+   
+    
+}
+
+html ,body
+{
+    margin: 0%;
+    padding: 0%;
+}
