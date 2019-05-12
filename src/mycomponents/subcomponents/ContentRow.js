@@ -18,7 +18,7 @@ export default class ContentRow extends Component{
        if(!max){
            max="4";
        }
-        fetch(`http://localhost:5000/send/filter/${handle}/${max}`)
+        fetch(`https://serveryt.herokuapp.com/send/filter/${handle}/${max}`)
     .then(responce => responce.json())
     .then(json => this.setState({data:json}))
     .catch( err => console.log(err))

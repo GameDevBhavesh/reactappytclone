@@ -10,7 +10,7 @@ class content extends Component {
         return <div className="rightdiv">
                 <div className="content">
                 <video  controls>
-                <source src={`http://localhost:5000/watch/${this.props.match.params.video}`} type="video/mp4"></source> </video>
+                <source src={`https://serveryt.herokuapp.com/watch/${this.props.match.params.video}`} type="video/mp4"></source> </video>
                 <p>{this.props.match.params.video}</p>
                 <img src={this.props.match.params.video} />
                 </div>

@@ -8,7 +8,7 @@ class MainScreen extends Component {
   constructor(props) {
     super(props);
     this.state = { data: []  }
-     fetch(`http://localhost:5000/send/page/home`)
+     fetch(`https://serveryt.herokuapp.com/send/page/home`)
       .then(responce => responce.json())
       .then(json => this.setState({ data: json }))
       .catch(err => console.log(err))
